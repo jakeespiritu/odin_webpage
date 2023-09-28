@@ -2,12 +2,16 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    background: black;
+    padding: 0 50px;
 }
 .header {
-    background: #1F2937;
+    background: #0f1620;
     display: flex;
     justify-content: space-between;
     padding: 16px 200px;
+    
 }
 
 .logo {
@@ -33,4 +37,63 @@ ul {
 a {
     text-decoration: none;
     color: #e5e7eb;
+}
+
+.top {
+    background: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 200px;
+
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.right {
+    flex: 1;
+}
+
+.right img {
+    border-style: solid;
+    border: white;
+
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.sub-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+button.sign {
+    background: royalblue;
+    padding: 6px 16px;
+    border-radius: 8px;
+    color: #e5e7eb;
+    border: none;
+    width: 96px;
+    height: 26px;
+}
+
+.center {
+    background: #f9faf8;
+}
+
+.infohead {
+    font-size: 36px;
+    font-weight: bolder;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
