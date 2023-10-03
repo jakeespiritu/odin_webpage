@@ -101,6 +101,7 @@ button.sign {
     display: flex;
     justify-content: center;
     padding: 20px;
+    margin-top: 20px;
 }
 .container {
     display: flex;
@@ -190,4 +191,11 @@ button.subscribe {
     color: #e5e7eb;
     border: 2px solid #f9faf8;
     cursor: grab;
+}
+
+footer {
+    color: #f9faf8;
+    text-align: center;
+    margin: 30px 0;
+    white-space: pre;
 }
