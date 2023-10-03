@@ -30,7 +30,7 @@ ul {
     display: flex;
     margin: 0;
     padding: 0;
-    gap: 12px;
+    gap: 16px;
     justify-content: space-evenly;
 }
 
@@ -100,4 +100,29 @@ button.sign {
     display: flex;
     justify-content: center;
     padding: 20px;
+}
+.container {
+    display: flex;
+    padding: 30px 200px;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.info img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+
+.info .text {
+    text-align: center;
+    font-family: 'Roboto', 'Times New Roman', Times, serif;
 }
